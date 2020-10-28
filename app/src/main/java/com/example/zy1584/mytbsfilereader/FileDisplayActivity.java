@@ -11,13 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.tencent.smtt.sdk.QbSdk;
 import com.tencent.smtt.sdk.TbsReaderView;
-import com.tencent.smtt.sdk.ValueCallback;
-
 import java.io.File;
 
 public class FileDisplayActivity extends AppCompatActivity implements TbsReaderView.ReaderCallback {
