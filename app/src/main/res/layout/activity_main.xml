@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rg_open_way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_openFileReader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="QbSdk.openFileReader" />
+
+        <RadioButton
+            android:id="@+id/rb_openFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TbsReaderView.openFile" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_download_and_open_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络获取并打开doc文件"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_local_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开本地doc文件" />
+
+    <Button
+        android:id="@+id/btn_local_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开本地txt文件" />
+
+    <Button
+        android:id="@+id/btn_local_excel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开本地excel文件" />
+
+    <Button
+        android:id="@+id/btn_local_ppt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开本地ppt文件" />
+
+    <Button
+        android:id="@+id/btn_local_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开本地pdf文件" />
+
+    <Button
+        android:id="@+id/btn_neihe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内核检测" />
+
+</LinearLayout>
