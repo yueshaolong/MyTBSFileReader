@@ -27,7 +27,7 @@ public class FileDisplayActivity extends AppCompatActivity implements TbsReaderV
 
         mTbsReaderView = new TbsReaderView(this, this);
         RelativeLayout mRelativeLayout = findViewById(R.id.activity_file_display);
-        mRelativeLayout.addView(mTbsReaderView,new RelativeLayout.LayoutParams(
+        mRelativeLayout.addView(mTbsReaderView,new RelativeLayout.LayoutParams(/*500,500*/
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT));
 
